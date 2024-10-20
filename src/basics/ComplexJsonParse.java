@@ -18,5 +18,14 @@ public class ComplexJsonParse {
 //        Print title of the second course
         String courseTitle1 = jsonPath.getString("courses[1].title");
         System.out.println(courseTitle1);
+
+//        Print all course titles and thier respective prices
+        String Title;
+        int Price;
+        for (int i = 0; i < count; i++) {
+            Title = jsonPath.getString("courses["+i+"].title");
+            Price = jsonPath.getInt("courses["+i+"].price");
+            System.out.println("The price of the course <" + Title + "> is: " + Price);
+        }
     }
 }
