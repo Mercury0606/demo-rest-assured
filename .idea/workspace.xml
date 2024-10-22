@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Retrieving the JSON Nodes on condirion logic using JsonPath">
-      <change afterPath="$PROJECT_DIR$/src/basics/SumValidation.java" afterDir="false" />
+    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Real Time example to solve Business logic through json response.">
+      <change afterPath="$PROJECT_DIR$/src/basics/DynamicJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basics/ComplexJsonParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/ComplexJsonParse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/SumValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/SumValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/Payload.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,19 +57,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.DynamicJson.addBook.executor": "Debug",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ComplexJsonParse">
-    <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics" />
-      <module name="demo-rest-assured" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.DynamicJson.addBook">
     <configuration name="ComplexJsonParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.ComplexJsonParse" />
       <module name="demo-rest-assured" />
@@ -114,13 +110,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DynamicJson.addBook" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo-rest-assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basics" />
+      <option name="MAIN_CLASS_NAME" value="basics.DynamicJson" />
+      <option name="METHOD_NAME" value="addBook" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DynamicJson.addBook" />
         <item itemvalue="Application.ComplexJsonParse" />
         <item itemvalue="Application.SumValidation" />
         <item itemvalue="Application.OpenPriceline" />
         <item itemvalue="Application.basics.Basics" />
-        <item itemvalue="Application.Basics" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729418411407</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Real Time example to solve Business logic through json response.">
+      <option name="closed" value="true" />
+      <created>1729491581652</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729491581652</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +206,18 @@
     <MESSAGE value="Building E2E Automation using GET POST and PUT  http methods" />
     <MESSAGE value="Retrieving the JSON Array size and its elements using JsonPath" />
     <MESSAGE value="Retrieving the JSON Nodes on condirion logic using JsonPath" />
-    <option name="LAST_COMMIT_MESSAGE" value="Retrieving the JSON Nodes on condirion logic using JsonPath" />
+    <MESSAGE value="Real Time example to solve Business logic through json response." />
+    <option name="LAST_COMMIT_MESSAGE" value="Real Time example to solve Business logic through json response." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basics/DynamicJson.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -6,7 +6,7 @@ import org.testng.Assert;
 
 public class SumValidation {
 
-    JsonPath jsonPath = new JsonPath(Payload.CoursePrice());
+    JsonPath jsonPath = new JsonPath(Payload.coursePrice());
     int Count = jsonPath.getInt("courses.size()");
     String Title;
     int Price;

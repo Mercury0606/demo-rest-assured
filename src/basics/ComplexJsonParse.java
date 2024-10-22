@@ -5,7 +5,7 @@ import io.restassured.path.json.JsonPath;
 
 public class ComplexJsonParse {
     public static void main(String[] args) {
-        JsonPath jsonPath = new JsonPath(Payload.CoursePrice());
+        JsonPath jsonPath = new JsonPath(Payload.coursePrice());
         int count = jsonPath.getInt("courses.size()");
 //        Print no of courses returned by API
         System.out.println(count);
