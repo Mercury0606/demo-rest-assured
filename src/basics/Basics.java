@@ -6,20 +6,28 @@ import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
 
 public class Basics {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
 
         //given - all input details
         //when - Submit the API - resource
         //Then - validate the response
+        //content of the file to String -> content can convert into Byte->Byte data to String
 
         RestAssured.baseURI="https://rahulshettyacademy.com";
         Payload payload = new Payload();
-        String response = given().queryParam("key", "qaclick123").header("Content-Type", "application/json").body(payload.addPlace()).
+        String response = given().queryParam("key", "qaclick123").header("Content-Type", "application/json").
+                body(Files.readAllBytes(Paths.get("src/test/resources/addPlace.json"))).
                 when().post("maps/api/place/add/json").
                 then().log().all().assertThat().statusCode(200).body("scope", equalTo("APP")).header("server", "Apache/2.4.52 (Ubuntu)").extract().response().asString();
         System.out.println(response);

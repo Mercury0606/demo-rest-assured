@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Real Time example to solve Business logic through json response.">
-      <change afterPath="$PROJECT_DIR$/src/basics/DynamicJson.java" afterDir="false" />
+    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Example on prameterization of API Test with multiple data sets">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/addPlace.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/ComplexJsonParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/ComplexJsonParse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/SumValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/SumValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/files/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/Payload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/Basics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,17 +51,21 @@
     "Application.ComplexJsonParse.executor": "Run",
     "Application.OpenPriceline.executor": "Run",
     "Application.SumValidation.executor": "Run",
+    "Application.basics.Basics.executor": "Run",
     "Application.basics.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.DynamicJson.addBook.executor": "Debug",
+    "TestNG.DynamicJson.addBook.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.DynamicJson.addBook">
+  <component name="RunManager" selected="Application.basics.Basics">
     <configuration name="ComplexJsonParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.ComplexJsonParse" />
       <module name="demo-rest-assured" />
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.basics.Basics" />
         <item itemvalue="TestNG.DynamicJson.addBook" />
         <item itemvalue="Application.ComplexJsonParse" />
         <item itemvalue="Application.SumValidation" />
         <item itemvalue="Application.OpenPriceline" />
-        <item itemvalue="Application.basics.Basics" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729491581652</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Example on prameterization of API Test with multiple data sets">
+      <option name="closed" value="true" />
+      <created>1729568875119</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729568875119</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +217,8 @@
     <MESSAGE value="Retrieving the JSON Array size and its elements using JsonPath" />
     <MESSAGE value="Retrieving the JSON Nodes on condirion logic using JsonPath" />
     <MESSAGE value="Real Time example to solve Business logic through json response." />
-    <option name="LAST_COMMIT_MESSAGE" value="Real Time example to solve Business logic through json response." />
+    <MESSAGE value="Example on prameterization of API Test with multiple data sets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example on prameterization of API Test with multiple data sets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
