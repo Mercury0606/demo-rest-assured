@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Example on prameterization of API Test with multiple data sets">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/addPlace.json" afterDir="false" />
+    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="How to handle with static json">
+      <change afterPath="$PROJECT_DIR$/src/basics/BugTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/beijing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/Basics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Basics.executor": "Run",
+    "Application.BugTest.executor": "Run",
     "Application.ComplexJsonParse.executor": "Run",
     "Application.OpenPriceline.executor": "Run",
     "Application.SumValidation.executor": "Run",
@@ -65,9 +66,14 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.basics.Basics">
-    <configuration name="ComplexJsonParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.ComplexJsonParse" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BugTest">
+    <configuration name="BugTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.BugTest" />
       <module name="demo-rest-assured" />
       <extension name="coverage">
         <pattern>
@@ -79,9 +85,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenPriceline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OpenPriceline" />
+    <configuration name="ComplexJsonParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.ComplexJsonParse" />
       <module name="demo-rest-assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BugTest" />
         <item itemvalue="Application.basics.Basics" />
         <item itemvalue="TestNG.DynamicJson.addBook" />
         <item itemvalue="Application.ComplexJsonParse" />
         <item itemvalue="Application.SumValidation" />
-        <item itemvalue="Application.OpenPriceline" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729568875119</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="How to handle with static json">
+      <option name="closed" value="true" />
+      <created>1729585024705</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729585024705</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +238,8 @@
     <MESSAGE value="Retrieving the JSON Nodes on condirion logic using JsonPath" />
     <MESSAGE value="Real Time example to solve Business logic through json response." />
     <MESSAGE value="Example on prameterization of API Test with multiple data sets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Example on prameterization of API Test with multiple data sets" />
+    <MESSAGE value="How to handle with static json" />
+    <option name="LAST_COMMIT_MESSAGE" value="How to handle with static json" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
