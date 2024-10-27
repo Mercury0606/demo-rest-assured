@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="How to handle with static json">
-      <change afterPath="$PROJECT_DIR$/src/basics/BugTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/beijing.html" afterDir="false" />
+    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Rest assured Automation test to create bug and send files as attachment for Jira">
+      <change afterPath="$PROJECT_DIR$/src/demo/OAuthTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +49,7 @@
     "Application.Basics.executor": "Run",
     "Application.BugTest.executor": "Run",
     "Application.ComplexJsonParse.executor": "Run",
+    "Application.OAuthTest.executor": "Run",
     "Application.OpenPriceline.executor": "Run",
     "Application.SumValidation.executor": "Run",
     "Application.basics.Basics.executor": "Run",
@@ -71,7 +71,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BugTest">
+  <component name="RunManager" selected="Application.OAuthTest">
     <configuration name="BugTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.BugTest" />
       <module name="demo-rest-assured" />
@@ -98,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.SumValidation" />
+    <configuration name="OAuthTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.OAuthTest" />
       <module name="demo-rest-assured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OAuthTest" />
         <item itemvalue="Application.BugTest" />
         <item itemvalue="Application.basics.Basics" />
         <item itemvalue="TestNG.DynamicJson.addBook" />
         <item itemvalue="Application.ComplexJsonParse" />
-        <item itemvalue="Application.SumValidation" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +217,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729585024705</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Rest assured Automation test to create bug and send files as attachment for Jira">
+      <option name="closed" value="true" />
+      <created>1729947838461</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729947838461</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Rest assured Automation test to create bug and send files as attachment for Jira">
+      <option name="closed" value="true" />
+      <created>1729947842050</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729947842051</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +255,8 @@
     <MESSAGE value="Real Time example to solve Business logic through json response." />
     <MESSAGE value="Example on prameterization of API Test with multiple data sets" />
     <MESSAGE value="How to handle with static json" />
-    <option name="LAST_COMMIT_MESSAGE" value="How to handle with static json" />
+    <MESSAGE value="Rest assured Automation test to create bug and send files as attachment for Jira" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rest assured Automation test to create bug and send files as attachment for Jira" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
