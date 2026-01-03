@@ -9,6 +9,9 @@ import static io.restassured.RestAssured.*;
 public class OAuthTest {
     public static void main(String[] args) {
         RestAssured.baseURI="https://rahulshettyacademy.com/oauthapi/oauth2/resourceOwner/token";
+        //give - all input details
+        //when - submit the API
+        //Then - validate teh response
         String authRes = given().
                 formParam("client_id", "692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com").
                 formParam("client_secret", "erZOWM9g3UtwNRj340YYaK_W").

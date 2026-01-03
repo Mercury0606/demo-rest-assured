@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Rest assured Automation test to create bug and send files as attachment for Jira">
-      <change afterPath="$PROJECT_DIR$/src/demo/OAuthTest.java" afterDir="false" />
+    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Rest assured automation script for Oath end to end API's test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/OAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/OAuthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +48,11 @@
   "keyToString": {
     "Application.Basics.executor": "Run",
     "Application.BugTest.executor": "Run",
-    "Application.ComplexJsonParse.executor": "Run",
+    "Application.ComplexJsonParse.executor": "Debug",
     "Application.OAuthTest.executor": "Run",
     "Application.OpenPriceline.executor": "Run",
     "Application.SumValidation.executor": "Run",
-    "Application.basics.Basics.executor": "Run",
+    "Application.basics.Basics.executor": "Debug",
     "Application.basics.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -71,7 +71,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OAuthTest">
+  <component name="RunManager" selected="TestNG.DynamicJson.addBook">
     <configuration name="BugTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.BugTest" />
       <module name="demo-rest-assured" />
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OAuthTest" />
-        <item itemvalue="Application.BugTest" />
-        <item itemvalue="Application.basics.Basics" />
         <item itemvalue="TestNG.DynamicJson.addBook" />
         <item itemvalue="Application.ComplexJsonParse" />
+        <item itemvalue="Application.basics.Basics" />
+        <item itemvalue="Application.OAuthTest" />
+        <item itemvalue="Application.BugTest" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729947842051</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Rest assured automation script for Oath end to end API's test">
+      <option name="closed" value="true" />
+      <created>1730030250832</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730030250832</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,15 +264,26 @@
     <MESSAGE value="Example on prameterization of API Test with multiple data sets" />
     <MESSAGE value="How to handle with static json" />
     <MESSAGE value="Rest assured Automation test to create bug and send files as attachment for Jira" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rest assured Automation test to create bug and send files as attachment for Jira" />
+    <MESSAGE value="Rest assured automation script for Oath end to end API's test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rest assured automation script for Oath end to end API's test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/basics/DynamicJson.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/basics/Basics.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basics/Basics.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basics/ComplexJsonParse.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
