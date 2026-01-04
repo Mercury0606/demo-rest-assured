@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="updated config">
-      <change afterPath="$PROJECT_DIR$/src/demo/pojo/Api.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/pojo/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/pojo/WebAutomation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/pojo/Courses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/GetCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/pojo/GetCourse.java" afterDir="false" />
-    </list>
+    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Creating POJO classs for the real time Nested" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -290,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767530982081</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Creating POJO classs for the real time Nested">
+      <option name="closed" value="true" />
+      <created>1767533073982</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1767533073982</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,7 +316,8 @@
     <MESSAGE value="Rest assured Automation test to create bug and send files as attachment for Jira" />
     <MESSAGE value="Rest assured automation script for Oath end to end API's test" />
     <MESSAGE value="updated config" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated config" />
+    <MESSAGE value="Creating POJO classs for the real time Nested" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating POJO classs for the real time Nested" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
