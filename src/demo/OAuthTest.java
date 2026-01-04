@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.*;
 
 public class OAuthTest {
     public static void main(String[] args) {
-        RestAssured.baseURI="https://rahulshettyacademy.com/oauthapi/oauth2/resourceOwner/token";
+        RestAssured.baseURI="https://rahulshettyacademy.com/oauthapi/";
         //give - all input details
         //when - submit the API
         //Then - validate teh response
@@ -17,7 +17,7 @@ public class OAuthTest {
                 formParam("client_secret", "erZOWM9g3UtwNRj340YYaK_W").
                 formParam("grant_type", "client_credentials").
                 formParam("scope", "trust").
-                post().
+                post("oauth2/resourceOwner/token").
                 then().
                 log().all().assertThat().statusCode(200).
                 extract().response().asString();
@@ -25,6 +25,9 @@ public class OAuthTest {
         String access_token = jsonPath.getString("access_token");
         System.out.println(access_token);
 
-
+        String string = given().param("access_token", access_token).
+                when().log().all().
+                get("getCourseDetails").asString();
+        System.out.println(new JsonPath(string).getString("url"));
     }
 }

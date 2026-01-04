@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Rest assured automation script for Oath end to end API's test">
+    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="updated config">
+      <change afterPath="$PROJECT_DIR$/src/demo/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/GetCourse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/BugTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/BugTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/OAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/OAuthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -76,7 +85,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BugTest">
+  <component name="RunManager" selected="Application.OAuthTest">
     <configuration name="BugTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.BugTest" />
       <module name="demo-rest-assured" />
@@ -149,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OAuthTest" />
         <item itemvalue="Application.BugTest" />
         <item itemvalue="Application.basics.Basics" />
         <item itemvalue="TestNG.DynamicJson.addBook" />
         <item itemvalue="Application.ComplexJsonParse" />
-        <item itemvalue="Application.OAuthTest" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767416018556</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updated config">
+      <option name="closed" value="true" />
+      <created>1767517773510</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1767517773510</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +302,8 @@
     <MESSAGE value="How to handle with static json" />
     <MESSAGE value="Rest assured Automation test to create bug and send files as attachment for Jira" />
     <MESSAGE value="Rest assured automation script for Oath end to end API's test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rest assured automation script for Oath end to end API's test" />
+    <MESSAGE value="updated config" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -309,6 +327,11 @@
           <url>file://$PROJECT_DIR$/src/basics/BugTest.java</url>
           <line>30</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/demo/OAuthTest.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
