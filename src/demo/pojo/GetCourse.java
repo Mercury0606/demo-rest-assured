@@ -1,4 +1,4 @@
-package demo;
+package demo.pojo;
 
 public class GetCourse {
     private String url;

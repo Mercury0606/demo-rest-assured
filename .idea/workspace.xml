@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="updated config">
-      <change afterPath="$PROJECT_DIR$/src/demo/Courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/GetCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/pojo/Api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/pojo/Mobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/pojo/WebAutomation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/OAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/OAuthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/pojo/Courses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/GetCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/pojo/GetCourse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +85,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="demo" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.OAuthTest">
     <configuration name="BugTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -117,7 +121,7 @@
       <module name="demo-rest-assured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="demo.pojo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767517773510</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="updated config">
+      <option name="closed" value="true" />
+      <created>1767530982081</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1767530982081</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
