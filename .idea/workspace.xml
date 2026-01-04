@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Rest assured automation script for Oath end to end API's test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/OAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/OAuthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/BugTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/BugTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +35,14 @@
     &quot;accountId&quot;: &quot;8c3c9996-3d7e-45bf-a235-cd01c2660e08&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2mJiA63Ur4XtFNj0GfWFNHGT6p4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,23 +50,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Basics.executor": "Run",
-    "Application.BugTest.executor": "Run",
+    "Application.BugTest.executor": "Debug",
     "Application.ComplexJsonParse.executor": "Debug",
     "Application.OAuthTest.executor": "Run",
     "Application.OpenPriceline.executor": "Run",
     "Application.SumValidation.executor": "Run",
-    "Application.basics.Basics.executor": "Debug",
+    "Application.basics.Basics.executor": "Run",
     "Application.basics.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.DynamicJson.addBook.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,7 +76,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DynamicJson.addBook">
+  <component name="RunManager" selected="Application.BugTest">
     <configuration name="BugTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.BugTest" />
       <module name="demo-rest-assured" />
@@ -144,13 +149,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BugTest" />
+        <item itemvalue="Application.basics.Basics" />
         <item itemvalue="TestNG.DynamicJson.addBook" />
         <item itemvalue="Application.ComplexJsonParse" />
-        <item itemvalue="Application.basics.Basics" />
         <item itemvalue="Application.OAuthTest" />
-        <item itemvalue="Application.BugTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -241,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730030250832</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Rest assured automation script for Oath end to end API's test">
+      <option name="closed" value="true" />
+      <created>1767416018556</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1767416018556</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,6 +304,11 @@
           <url>file://$PROJECT_DIR$/src/basics/ComplexJsonParse.java</url>
           <line>7</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basics/BugTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

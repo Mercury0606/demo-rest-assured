@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/src/basics/Basics.java;/Users/zhongchongyuan/Developer/IdeaProjects/demo-rest-assured/src/basics/BugTest.java;/Users/zhongchongyuan/Developer/IdeaProjects/demo-rest-assured/src/basics/ComplexJsonParse.java;/Users/zhongchongyuan/Developer/IdeaProjects/demo-rest-assured/src/basics/DynamicJson.java;/Users/zhongchongyuan/Developer/IdeaProjects/demo-rest-assured/src/basics/SumValidation.java;/Users/zhongchongyuan/Developer/IdeaProjects/demo-rest-assured/src/demo/OAuthTest.java;/Users/zhongchongyuan/Developer/IdeaProjects/demo-rest-assured/src/files/Payload.java;/Users/zhongchongyuan/Developer/IdeaProjects/demo-rest-assured/src/files/ReusableMethods.java;/Users/zhongchongyuan/Developer/IdeaProjects/demo-rest-assured/src/test/resources/addPlace.json;/Users/zhongchongyuan/Developer/IdeaProjects/demo-rest-assured/src/test/resources/beijing.html" />
+  </component>
+</project>

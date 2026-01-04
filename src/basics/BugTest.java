@@ -10,10 +10,10 @@ import static java.lang.Math.log;
 
 public class BugTest {
     public static void main(String[] args) {
-         RestAssured.baseURI = "https://mercuryzhong0606.atlassian.net";
+         RestAssured.baseURI = "https://mercuryzhong.atlassian.net";
         String creatIssueResponse = given().
                 header("Content-Type", "application/json").
-                header("Authorization", "Basic TWVyY3VyeXpob25nMDYwNkBnbWFpbC5jb206QVRBVFQzeEZmR0YwUGtqUVl0ME50RnRha1Q4b2I2bHNJYjFBOTFEalNrazF4cHhTQjMtcHBMZno1czhNRG4wZHRwT3dGUjF2ZERGZGlFTWptemtCRlFncW9QODNGLW9HQzE4cnRtZUZfd3picjJnUFJIUlQxZWxYQm9sd2dBR2lPTmtBd0tJUHJFVjdlczhEaXduRURpbkZmdUg2eDhhQnpKbUZLbkZhNUlmNHlGOTRJVXlNMVc0PUUyRkY2RDNG").
+                header("Authorization", "Basic bWVyY3VyeXpob25nMDYwNkBnbWFpbC5jb206QVRBVFQzeEZmR0YwSk5WRHloSkdJdUFGbS1ueUo3ZFBUaHR1cE1iR1FHUVVIRTdHM09IQXFBaXk0YTQ3cVZNWmQtc2NaR0lSbFY4VFhSek1PYjRSUWNjMXI3OUl6X1Z4OW95TEhfN09fN19pQnRIcmlmVTBxZkVpUmNyQmZQdXl0NERBQ1NHaDQyelNoVmRyY19zX3RvcFExeC11ZTVDaDhXTFo3c1NqWWFsWGJIRjd3T2tZZ09jPThFQjQyNDFC").
                 body("{\n" +
                         "    \"fields\": {\n" +
                         "       \"project\":{\n" +
@@ -39,7 +39,7 @@ public class BugTest {
         File file = new File("src/test/resources/beijing.html");
         String creatIssueResponse01 = given().
                 pathParams("key",issueId).
-                header("Authorization", "Basic TWVyY3VyeXpob25nMDYwNkBnbWFpbC5jb206QVRBVFQzeEZmR0YwUGtqUVl0ME50RnRha1Q4b2I2bHNJYjFBOTFEalNrazF4cHhTQjMtcHBMZno1czhNRG4wZHRwT3dGUjF2ZERGZGlFTWptemtCRlFncW9QODNGLW9HQzE4cnRtZUZfd3picjJnUFJIUlQxZWxYQm9sd2dBR2lPTmtBd0tJUHJFVjdlczhEaXduRURpbkZmdUg2eDhhQnpKbUZLbkZhNUlmNHlGOTRJVXlNMVc0PUUyRkY2RDNG").
+                header("Authorization", "Basic bWVyY3VyeXpob25nMDYwNkBnbWFpbC5jb206QVRBVFQzeEZmR0YwSk5WRHloSkdJdUFGbS1ueUo3ZFBUaHR1cE1iR1FHUVVIRTdHM09IQXFBaXk0YTQ3cVZNWmQtc2NaR0lSbFY4VFhSek1PYjRSUWNjMXI3OUl6X1Z4OW95TEhfN09fN19pQnRIcmlmVTBxZkVpUmNyQmZQdXl0NERBQ1NHaDQyelNoVmRyY19zX3RvcFExeC11ZTVDaDhXTFo3c1NqWWFsWGJIRjd3T2tZZ09jPThFQjQyNDFC").
                 header("X-Atlassian-Token", "no-check").
                 multiPart("file", file).
                 post("/rest/api/2/issue/{key}/attachments").
