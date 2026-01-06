@@ -1,8 +1,11 @@
 package demo;
 
+import demo.pojo.GetCourse;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+
+import java.lang.reflect.Type;
 
 import static io.restassured.RestAssured.*;
 
@@ -25,9 +28,9 @@ public class OAuthTest {
         String access_token = jsonPath.getString("access_token");
         System.out.println(access_token);
 
-        String string = given().param("access_token", access_token).
+        GetCourse string = given().param("access_token", access_token).
                 when().log().all().
-                get("getCourseDetails").asString();
-        System.out.println(new JsonPath(string).getString("url"));
+                get("getCourseDetails").as((Type) GetCourse.class);
+        System.out.println(string);
     }
 }
