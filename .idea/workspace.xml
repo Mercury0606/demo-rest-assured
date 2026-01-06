@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Creating POJO classs for the real time Nested">
+    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="E2E Automation examples using POJO Deserialization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/demo/OAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/OAuthTest.java" afterDir="false" />
     </list>
@@ -44,6 +44,9 @@
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -302,7 +305,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767533157680</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="E2E Automation examples using POJO Deserialization">
+      <option name="closed" value="true" />
+      <created>1767711662091</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1767711662091</updated>
+    </task>
+    <task id="LOCAL-00017" summary="E2E Automation examples using POJO Deserialization">
+      <option name="closed" value="true" />
+      <created>1767711678173</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1767711678173</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,7 +347,8 @@
     <MESSAGE value="Rest assured automation script for Oath end to end API's test" />
     <MESSAGE value="updated config" />
     <MESSAGE value="Creating POJO classs for the real time Nested" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating POJO classs for the real time Nested" />
+    <MESSAGE value="E2E Automation examples using POJO Deserialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="E2E Automation examples using POJO Deserialization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -355,13 +375,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/demo/OAuthTest.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/demo/OAuthTest.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="11" />
+          <line>43</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
