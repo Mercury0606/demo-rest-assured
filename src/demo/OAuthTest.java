@@ -3,7 +3,6 @@ package demo;
 import demo.pojo.GetCourse;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
 
 import java.lang.reflect.Type;
 
