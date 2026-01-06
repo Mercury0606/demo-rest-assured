@@ -1,6 +1,7 @@
 package demo;
 
 import demo.pojo.Api;
+import demo.pojo.Courses;
 import demo.pojo.GetCourse;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
@@ -36,11 +37,11 @@ public class OAuthTest {
         System.out.println(">>>>>"+getCourse.getInstructor());
         System.out.println(">>>>>"+getCourse.getCourses());
         List<Api> apiCourses = getCourse.getCourses().getApi();
-        for (int i = 0; i < apiCourses.size(); i++) {
+        for (Api api : apiCourses) {
             System.out.println(">>>>>>>>>>");
             System.out.println(">>>>>>>>>>");
-            System.out.println("Course title:"+apiCourses.get(i).getCourseTitle());
-//            System.out.println("Price:"+apiCourses.get(i).getPrice());
+            System.out.println("Course title:"+api.getCourseTitle());
+//            System.out.println("Price:"+api.getPrice());
             System.out.println(">>>>>>>>>>");
             System.out.println(">>>>>>>>>>");
         }
