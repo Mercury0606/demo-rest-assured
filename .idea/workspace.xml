@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="E2E Automation examples using POJO Deserialization">
+    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Solving Complex Queries from Json with simple POJO methods">
+      <change afterPath="$PROJECT_DIR$/src/demo/pojo/AddPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/pojo/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/pojo/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/pojo/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/pojo/PhoneNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/pojo/PlaceName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/pojo/Types.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/pojo/Website.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/serialTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/OAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/OAuthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +29,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -61,14 +63,16 @@
     "Application.Basics.executor": "Run",
     "Application.BugTest.executor": "Debug",
     "Application.ComplexJsonParse.executor": "Debug",
-    "Application.OAuthTest.executor": "Debug",
+    "Application.OAuthTest.executor": "Run",
     "Application.OpenPriceline.executor": "Run",
     "Application.SumValidation.executor": "Run",
     "Application.basics.Basics.executor": "Run",
     "Application.basics.executor": "Run",
+    "Application.serialTest.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.DynamicJson.addBook.executor": "Run",
@@ -81,6 +85,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="demo.pojo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
@@ -88,22 +95,9 @@
       <recent name="demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OAuthTest">
+  <component name="RunManager" selected="Application.serialTest">
     <configuration name="BugTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.BugTest" />
-      <module name="demo-rest-assured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComplexJsonParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.ComplexJsonParse" />
       <module name="demo-rest-assured" />
       <extension name="coverage">
         <pattern>
@@ -141,6 +135,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="serialTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.serialTest" />
+      <module name="demo-rest-assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DynamicJson.addBook" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo-rest-assured" />
       <extension name="coverage">
@@ -161,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.serialTest" />
         <item itemvalue="Application.OAuthTest" />
         <item itemvalue="Application.BugTest" />
         <item itemvalue="Application.basics.Basics" />
         <item itemvalue="TestNG.DynamicJson.addBook" />
-        <item itemvalue="Application.ComplexJsonParse" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +328,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767711678173</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Solving Complex Queries from Json with simple POJO methods">
+      <option name="closed" value="true" />
+      <created>1767712391621</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1767712391621</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Solving Complex Queries from Json with simple POJO methods">
+      <option name="closed" value="true" />
+      <created>1767712627554</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1767712627554</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,7 +371,8 @@
     <MESSAGE value="updated config" />
     <MESSAGE value="Creating POJO classs for the real time Nested" />
     <MESSAGE value="E2E Automation examples using POJO Deserialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="E2E Automation examples using POJO Deserialization" />
+    <MESSAGE value="Solving Complex Queries from Json with simple POJO methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solving Complex Queries from Json with simple POJO methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -372,11 +396,6 @@
           <url>file://$PROJECT_DIR$/src/basics/BugTest.java</url>
           <line>30</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/demo/OAuthTest.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
