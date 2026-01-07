@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Solving Complex Queries from Json with simple POJO methods">
-      <change afterPath="$PROJECT_DIR$/src/demo/pojo/AddPlace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/pojo/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/pojo/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/pojo/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/pojo/PhoneNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/pojo/PlaceName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/pojo/Types.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/pojo/Website.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/serialTest.java" afterDir="false" />
+    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Build POJO classes for constructing JSON payload to API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/pojo/AddPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/pojo/AddPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/serialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/serialTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767712627554</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Build POJO classes for constructing JSON payload to API">
+      <option name="closed" value="true" />
+      <created>1767794503935</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1767794503935</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,7 +373,8 @@
     <MESSAGE value="Creating POJO classs for the real time Nested" />
     <MESSAGE value="E2E Automation examples using POJO Deserialization" />
     <MESSAGE value="Solving Complex Queries from Json with simple POJO methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solving Complex Queries from Json with simple POJO methods" />
+    <MESSAGE value="Build POJO classes for constructing JSON payload to API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build POJO classes for constructing JSON payload to API" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
