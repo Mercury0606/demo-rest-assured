@@ -8,6 +8,7 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.specification.RequestSpecification;
+import org.testng.Assert;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -74,7 +75,17 @@ public class ECommerceAPITest {
                 then().
                 log().all().
                 extract().response().asString();
-        JsonPath jsonPath1 = new JsonPath(string);
-        System.out.println(jsonPath1);
+
+
+        //Delete product
+        RequestSpecification deleteProductBaseReq = new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com/").
+                addHeader("authorization",token).setContentType(ContentType.JSON).
+                build();
+        RequestSpecification deleteProductReq = given().spec(deleteProductBaseReq).pathParam("productId", productId);
+        String deleteProductResponse = deleteProductReq.when().delete("/api/ecom/product/delete-product/{productId}").
+                then().log().all().
+                extract().response().asString();
+        JsonPath jsonPath1 = new JsonPath(deleteProductResponse);
+        Assert.assertEquals(jsonPath1.get("message"),"Product Deleted Successfully");
     }
 }

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Automate Post calls which has form paramters and attachments using Rest assured">
-      <change afterPath="$PROJECT_DIR$/src/demo/pojo/OrderDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/pojo/Orders.java" afterDir="false" />
+    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Implement POJO classes to build nestes JSON for Create Order for product added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/demo/ECommerceAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/ECommerceAPITest.java" afterDir="false" />
     </list>
@@ -387,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770549052737</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Implement POJO classes to build nestes JSON for Create Order for product added">
+      <option name="closed" value="true" />
+      <created>1770557777914</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1770557777914</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,7 +426,8 @@
     <MESSAGE value="Practical Example in implementing Spec Buildings and optimize code Rec" />
     <MESSAGE value="Create Rest Assured automation for Login Call to Auth token" />
     <MESSAGE value="Automate Post calls which has form paramters and attachments using Rest assured" />
-    <option name="LAST_COMMIT_MESSAGE" value="Automate Post calls which has form paramters and attachments using Rest assured" />
+    <MESSAGE value="Implement POJO classes to build nestes JSON for Create Order for product added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement POJO classes to build nestes JSON for Create Order for product added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -447,7 +454,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/demo/ECommerceAPITest.java</url>
-          <line>67</line>
+          <line>68</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
