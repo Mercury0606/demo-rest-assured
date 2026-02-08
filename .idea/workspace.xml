@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Create Rest Assured automation for Login Call to Auth token">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/productImage.jpg" afterDir="false" />
+    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Automate Post calls which has form paramters and attachments using Rest assured">
+      <change afterPath="$PROJECT_DIR$/src/demo/pojo/OrderDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/pojo/Orders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/demo/ECommerceAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/ECommerceAPITest.java" afterDir="false" />
     </list>
@@ -370,7 +371,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770547445673</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Automate Post calls which has form paramters and attachments using Rest assured">
+      <option name="closed" value="true" />
+      <created>1770549017429</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1770549017429</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Automate Post calls which has form paramters and attachments using Rest assured">
+      <option name="closed" value="true" />
+      <created>1770549052737</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1770549052737</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,7 +419,8 @@
     <MESSAGE value="Complete E2E test case with Serialization Implementation" />
     <MESSAGE value="Practical Example in implementing Spec Buildings and optimize code Rec" />
     <MESSAGE value="Create Rest Assured automation for Login Call to Auth token" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Rest Assured automation for Login Call to Auth token" />
+    <MESSAGE value="Automate Post calls which has form paramters and attachments using Rest assured" />
+    <option name="LAST_COMMIT_MESSAGE" value="Automate Post calls which has form paramters and attachments using Rest assured" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -426,6 +444,11 @@
           <url>file://$PROJECT_DIR$/src/basics/BugTest.java</url>
           <line>30</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/demo/ECommerceAPITest.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

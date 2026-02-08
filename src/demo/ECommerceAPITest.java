@@ -2,14 +2,17 @@ package demo;
 
 import demo.pojo.LoginRequest;
 import demo.pojo.LoginResponse;
+import demo.pojo.OrderDetails;
+import demo.pojo.Orders;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.specification.RequestSpecification;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
-import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
 
 public class ECommerceAPITest {
@@ -39,7 +42,7 @@ public class ECommerceAPITest {
         RequestSpecification reqAddProduct = given().log().all().spec(addProductBaseReq).
                 param("productName", "Laptop").
                 param("productAddedBy", userId).
-                param("productCategory", "fasion").
+                param("productCategory", "fashion").
                 param("productSubCategory", "shirts").
                 param("productPrice", "11500").
                 param("productDescription", "Lenova").
@@ -50,5 +53,28 @@ public class ECommerceAPITest {
         JsonPath jsonPath = new JsonPath(addProductResponse);
         String  productId = jsonPath.get("productId");
 
+        //Create Order
+        RequestSpecification createOrderBaseReq = new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com/").
+                addHeader("authorization",token).setContentType(ContentType.JSON).
+                build();
+        OrderDetails orderDetails = new OrderDetails();
+        orderDetails.setCountry("India");
+        orderDetails.setProductOrderedId(productId);
+
+        List<OrderDetails> orderDetailsList = new ArrayList<>();
+        orderDetailsList.add(orderDetails);
+
+
+        Orders orders = new Orders();
+        orders.setOrders(orderDetailsList);
+
+
+        RequestSpecification createOrderReq = given().log().all().spec(createOrderBaseReq).body(orders);
+        String string = createOrderReq.when().post("/api/ecom/order/create-order").
+                then().
+                log().all().
+                extract().response().asString();
+        JsonPath jsonPath1 = new JsonPath(string);
+        System.out.println(jsonPath1);
     }
 }
