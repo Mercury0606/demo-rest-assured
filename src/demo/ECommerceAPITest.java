@@ -44,7 +44,7 @@ public class ECommerceAPITest {
                 param("productPrice", "11500").
                 param("productDescription", "Lenova").
                 param("productFor", "men").
-                multiPart("productImage", new File("productImage.jpg"));
+                multiPart("productImage", new File("src/test/resources/productImage.jpg"));
 
         String addProductResponse = reqAddProduct.when().post("api/ecom/product/add-product").then().log().all().extract().response().asString();
         JsonPath jsonPath = new JsonPath(addProductResponse);
