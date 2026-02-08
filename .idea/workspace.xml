@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Practical Example in implementing Spec Buildings and optimize code Rec">
-      <change afterPath="$PROJECT_DIR$/src/demo/ECommerceAPITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/pojo/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/pojo/LoginResponse.java" afterDir="false" />
+    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Create Rest Assured automation for Login Call to Auth token">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/productImage.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/ECommerceAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/ECommerceAPITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +73,7 @@
     "TestNG.DynamicJson.addBook.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/zhongchongyuan/Developer/IdeaProjects/demo-rest-assured/src/test/resources",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -83,6 +83,9 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="demo.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
@@ -359,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770544710716</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Create Rest Assured automation for Login Call to Auth token">
+      <option name="closed" value="true" />
+      <created>1770547445673</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1770547445673</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,7 +401,8 @@
     <MESSAGE value="Build POJO classes for constructing JSON payload to API" />
     <MESSAGE value="Complete E2E test case with Serialization Implementation" />
     <MESSAGE value="Practical Example in implementing Spec Buildings and optimize code Rec" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practical Example in implementing Spec Buildings and optimize code Rec" />
+    <MESSAGE value="Create Rest Assured automation for Login Call to Auth token" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Rest Assured automation for Login Call to Auth token" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
