@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Complete E2E test case with Serialization Implementation">
-      <change afterPath="$PROJECT_DIR$/src/demo/SpecBuilderTest.java" afterDir="false" />
+    <list default="true" id="fd01ab4f-9381-4f53-bd47-976891eeb5d2" name="Changes" comment="Practical Example in implementing Spec Buildings and optimize code Rec">
+      <change afterPath="$PROJECT_DIR$/src/demo/ECommerceAPITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/pojo/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/pojo/LoginResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +57,7 @@
     "Application.Basics.executor": "Run",
     "Application.BugTest.executor": "Debug",
     "Application.ComplexJsonParse.executor": "Debug",
+    "Application.ECommerceAPITest.executor": "Run",
     "Application.OAuthTest.executor": "Run",
     "Application.OpenPriceline.executor": "Run",
     "Application.SpecBuilderTest.executor": "Run",
@@ -88,13 +91,26 @@
       <recent name="demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpecBuilderTest">
+  <component name="RunManager" selected="Application.ECommerceAPITest">
     <configuration name="BugTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.BugTest" />
       <module name="demo-rest-assured" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ECommerceAPITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.ECommerceAPITest" />
+      <module name="demo-rest-assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,19 +144,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basics.Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.Basics" />
-      <module name="demo-rest-assured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="serialTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.serialTest" />
       <module name="demo-rest-assured" />
@@ -156,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ECommerceAPITest" />
         <item itemvalue="Application.SpecBuilderTest" />
         <item itemvalue="Application.serialTest" />
         <item itemvalue="Application.OAuthTest" />
         <item itemvalue="Application.BugTest" />
-        <item itemvalue="Application.basics.Basics" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767795498488</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Practical Example in implementing Spec Buildings and optimize code Rec">
+      <option name="closed" value="true" />
+      <created>1770544710716</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1770544710716</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,7 +389,8 @@
     <MESSAGE value="Solving Complex Queries from Json with simple POJO methods" />
     <MESSAGE value="Build POJO classes for constructing JSON payload to API" />
     <MESSAGE value="Complete E2E test case with Serialization Implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete E2E test case with Serialization Implementation" />
+    <MESSAGE value="Practical Example in implementing Spec Buildings and optimize code Rec" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practical Example in implementing Spec Buildings and optimize code Rec" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
